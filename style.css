@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.encabezado {
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    /* background-image: url(./img/hojas-carton-tonos-rosas-espacio-copia.jpg); */
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.encabezado__menu{
+    width: 100%;
+    position: fixed;
+    background-color: teal;
+    padding: .75rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0,0.8);
+    z-index: 999;
+}
+.encabezado__logo {
+    filter: invert();
+}
+
+.encabezado__a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.encabezado__a:hover{
+    border-bottom: solid 1px black;
+}
+
+.presentacion {
+    padding: 13rem 4rem;
+}
+.presentacion__h1 {
+    color: rgb(232, 232, 78);
+    font-size: 4rem;
+}
+
+.presentacion__img{
+    width: 500px;
+    float: right;
+    position: relative;
+    bottom: 15rem;
+}
+.presentacion__h2 {
+    margin-bottom: 2.5rem;
+}
+.presentacion__p {
+    width: 50%;
+    margin-bottom: 2.5rem;
+    color: #fff;
+    font-weight: 700;
+}
+.presentacion__cta {
+    display: inline-block;
+    background-color: teal;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.presentacion__social {
+    margin-top: 4rem;
+}
+
+.principal{
+    width: 95%;
+    margin: 2rem auto;
+}
+
+.seccion__1{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.seccion__img{
+    width: 50%;
+    height: 400px;
+}
+
+.seccion__2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.seccion__2--h2 {
+    margin-bottom: 1rem;
+}
+.seccion__2--p {
+    margin-bottom: 1rem;
+}
+.seccion__2--img {
+    margin-bottom: 2rem;
+}
+
+.seccion__3{
+    margin-bottom: 2rem;
+}
+.seccion__3--h2{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.seccion__3--galery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.seccion__3--img{
+    width: 100%;
+}
+
+.seccion__2--h3{
+    margin-bottom: 2rem;
+}
+
+.beneficios{
+    display: flex;
+}
+
+
+.footer{
+    width: 100%;
+    background-color: teal;
+    padding: .75rem 4rem;
+    display:flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.footer__a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+
